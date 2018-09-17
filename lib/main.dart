@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hacker_news/screens/home/home_widget.dart';
 
 void main() => runApp(new MyApp());
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(),
+      home: HomeWidget(),
     );
   }
 }
